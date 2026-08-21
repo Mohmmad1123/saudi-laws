@@ -1,0 +1,26 @@
+{
+  "id": "trade-names-1446",
+  "family": "commercial",
+  "nameAr": "نظام الأسماء التجارية",
+  "nameEn": "Trade Names Law",
+  "decree": "م/83",
+  "hijriDate": "19/3/1446",
+  "gregorianYear": 2024,
+  "status": "in_force",
+  "articles": [],
+  "appliesTo": [
+    "اسم تجاري",
+    "حجز اسم",
+    "علامة الاسم التجاري",
+    "تغيير الاسم التجاري"
+  ],
+  "verification": {
+    "metadata": "secondary_source",
+    "articles": "none",
+    "checkedAt": "2026-08-22",
+    "sources": [
+      "https://qanoonsa.com/p/505002/"
+    ],
+    "notes": "صدر بالمرسوم نفسه (م/83) الذي أقرّ نظام السجل التجاري. متنه لم يُقرأ — للتوجيه فقط."
+  }
+}
