@@ -1,0 +1,22 @@
+{
+  "id": "civil-transactions-1444",
+  "family": "administrative",
+  "nameAr": "نظام المعاملات المدنية",
+  "status": "unverified",
+  "articles": [],
+  "appliesTo": [
+    "عقد",
+    "التزام",
+    "تعويض",
+    "فسخ",
+    "تقادم",
+    "بطلان"
+  ],
+  "verification": {
+    "metadata": "unverified",
+    "articles": "none",
+    "checkedAt": "2026-08-21",
+    "sources": [],
+    "notes": "النظام مدرج للتوجيه فقط: العقل يعرف أن المسألة تقع تحته، لكن لا يُستشهد بمادة ولا برقم غرامة منه حتى يُتحقَّق من متنه."
+  }
+}

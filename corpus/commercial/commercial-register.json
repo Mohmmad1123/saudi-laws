@@ -1,0 +1,19 @@
+{
+  "id": "commercial-register",
+  "family": "commercial",
+  "nameAr": "نظام السجل التجاري",
+  "status": "unverified",
+  "articles": [],
+  "appliesTo": [
+    "سجل تجاري",
+    "قيد",
+    "اسم تجاري"
+  ],
+  "verification": {
+    "metadata": "unverified",
+    "articles": "none",
+    "checkedAt": "2026-08-21",
+    "sources": [],
+    "notes": "النظام مدرج للتوجيه فقط: العقل يعرف أن المسألة تقع تحته، لكن لا يُستشهد بمادة ولا برقم غرامة منه حتى يُتحقَّق من متنه."
+  }
+}

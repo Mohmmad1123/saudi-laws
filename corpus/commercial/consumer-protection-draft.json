@@ -1,0 +1,19 @@
+{
+  "id": "consumer-protection-draft",
+  "family": "commercial",
+  "nameAr": "نظام حماية المستهلك",
+  "status": "draft",
+  "articles": [],
+  "appliesTo": [
+    "حماية المستهلك"
+  ],
+  "verification": {
+    "metadata": "primary_source",
+    "articles": "none",
+    "checkedAt": "2026-08-21",
+    "sources": [
+      "https://eparticipation.my.gov.sa/e-consultations/consultations/legal/legal-consultation-20540/"
+    ],
+    "notes": "🔴 مشروع نظام طرحته وزارة التجارة لاستطلاع المرئيات (31 مارس – 9 يونيو 2022) ولم يُعثر على مرسوم ملكي بإصداره. **لا يجوز الاحتجاج به كنظام نافذ.** المرجع الصحيح: نظام التجارة الإلكترونية ونظام مكافحة الغش التجاري."
+  }
+}

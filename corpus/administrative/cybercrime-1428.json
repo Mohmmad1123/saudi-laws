@@ -1,0 +1,20 @@
+{
+  "id": "cybercrime-1428",
+  "family": "administrative",
+  "nameAr": "نظام مكافحة الجرائم المعلوماتية",
+  "status": "unverified",
+  "articles": [],
+  "appliesTo": [
+    "اختراق",
+    "دخول غير مشروع",
+    "ابتزاز إلكتروني",
+    "تشهير"
+  ],
+  "verification": {
+    "metadata": "unverified",
+    "articles": "none",
+    "checkedAt": "2026-08-21",
+    "sources": [],
+    "notes": "النظام مدرج للتوجيه فقط: العقل يعرف أن المسألة تقع تحته، لكن لا يُستشهد بمادة ولا برقم غرامة منه حتى يُتحقَّق من متنه."
+  }
+}
