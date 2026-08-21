@@ -2,18 +2,26 @@
   "id": "aml-1439",
   "family": "financial",
   "nameAr": "نظام مكافحة غسل الأموال",
-  "status": "unverified",
-  "articles": [],
+  "nameEn": "Anti-Money Laundering Law",
+  "decree": "م/20",
+  "hijriDate": "5/2/1439",
+  "gregorianYear": 2017,
+  "status": "in_force",
   "appliesTo": [
     "غسل أموال",
     "تحويلات مشبوهة",
-    "العناية الواجبة"
+    "العناية الواجبة",
+    "إبلاغ عن عملية مشبوهة",
+    "مصدر الأموال"
   ],
+  "articles": [],
   "verification": {
-    "metadata": "unverified",
+    "metadata": "secondary_source",
     "articles": "none",
     "checkedAt": "2026-08-21",
-    "sources": [],
-    "notes": "النظام مدرج للتوجيه فقط: العقل يعرف أن المسألة تقع تحته، لكن لا يُستشهد بمادة ولا برقم غرامة منه حتى يُتحقَّق من متنه."
+    "sources": [
+      "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/85eb2897-bec6-4c0c-b1d7-ac7c008ec09c/1"
+    ],
+    "notes": "رقم المرسوم وتاريخه من مصدر ثانوي. المواد والعقوبات لم تُتحقَّق — لا يُستشهد بمادة ولا غرامة منه."
   }
 }

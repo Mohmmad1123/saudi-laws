@@ -2,19 +2,30 @@
   "id": "pdpl-1443",
   "family": "administrative",
   "nameAr": "نظام حماية البيانات الشخصية",
-  "status": "unverified",
-  "articles": [],
+  "nameEn": "Personal Data Protection Law (PDPL)",
+  "decree": "م/19",
+  "hijriDate": "9/2/1443",
+  "gregorianYear": 2021,
+  "status": "in_force",
+  "amendments": [
+    "المرسوم الملكي م/148 وتاريخ 5/9/1444هـ"
+  ],
   "appliesTo": [
     "بيانات شخصية",
     "خصوصية",
     "موافقة صاحب البيانات",
-    "تسريب بيانات"
+    "تسريب بيانات",
+    "نقل بيانات خارج المملكة",
+    "بيانات حساسة"
   ],
+  "articles": [],
   "verification": {
-    "metadata": "unverified",
+    "metadata": "primary_source",
     "articles": "none",
     "checkedAt": "2026-08-21",
-    "sources": [],
-    "notes": "النظام مدرج للتوجيه فقط: العقل يعرف أن المسألة تقع تحته، لكن لا يُستشهد بمادة ولا برقم غرامة منه حتى يُتحقَّق من متنه."
+    "sources": [
+      "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL2"
+    ],
+    "notes": "بيانات الإصدار والتعديل من بوابة سدايا الرسمية (م/19 — 9/2/1443هـ، معدَّل بـم/148 — 5/9/1444هـ). ⚠️ مواد العقوبات لم تُتحقَّق: المصادر الثانوية تضاربت في أرقامها، فلم يُحقن رقم. النظام مُدرَج للتوجيه فقط."
   }
 }

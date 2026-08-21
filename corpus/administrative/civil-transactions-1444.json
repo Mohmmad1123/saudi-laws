@@ -2,21 +2,31 @@
   "id": "civil-transactions-1444",
   "family": "administrative",
   "nameAr": "نظام المعاملات المدنية",
-  "status": "unverified",
-  "articles": [],
+  "nameEn": "Civil Transactions Law",
+  "decree": "م/191",
+  "hijriDate": "29/11/1444",
+  "gregorianYear": 2023,
+  "status": "in_force",
   "appliesTo": [
     "عقد",
     "التزام",
     "تعويض",
-    "فسخ",
+    "فسخ العقد",
     "تقادم",
-    "بطلان"
+    "بطلان",
+    "ضمان",
+    "إخلال بالعقد",
+    "عيب في المبيع"
   ],
+  "articles": [],
   "verification": {
-    "metadata": "unverified",
+    "metadata": "secondary_source",
     "articles": "none",
     "checkedAt": "2026-08-21",
-    "sources": [],
-    "notes": "النظام مدرج للتوجيه فقط: العقل يعرف أن المسألة تقع تحته، لكن لا يُستشهد بمادة ولا برقم غرامة منه حتى يُتحقَّق من متنه."
+    "sources": [
+      "https://www.wipo.int/wipolex/ar/legislation/details/22447",
+      "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/655fdb42-8c96-422b-b8c4-b04f0095c94c/1"
+    ],
+    "notes": "رقم المرسوم وتاريخه من مصدرين. المواد لم تُستخرج بعد (النظام ضخم). ⚠️ مهم: **هذا هو مرجع العيب والضمان والإخلال بالعقد** — أي ما لا تحكمه أنظمة التجارة."
   }
 }
