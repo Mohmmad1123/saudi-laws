@@ -3,49 +3,174 @@
   "title": "Saudi law corpus entry",
   "description": "سجلّ نظام سعودي. القاعدة الحاكمة: لا يدخل رقمٌ أو نصٌّ هذا الملف إلا من مصدر أوّلي (متن النظام أو جهة رسمية). ما لم يُتحقَّق منه يُترك فارغاً ويُعلَن في verification — لا يُخمَّن.",
   "type": "object",
-  "required": ["id", "family", "nameAr", "status", "verification"],
+  "required": [
+    "id",
+    "family",
+    "nameAr",
+    "status",
+    "verification"
+  ],
   "properties": {
-    "id": { "type": "string" },
-    "family": { "enum": ["commercial", "financial", "administrative", "labor"] },
-    "nameAr": { "type": "string" },
-    "nameEn": { "type": "string" },
-    "decree": { "type": "string", "description": "رقم المرسوم الملكي، مثل م/126" },
-    "hijriDate": { "type": "string" },
-    "gregorianYear": { "type": "integer" },
+    "id": {
+      "type": "string"
+    },
+    "family": {
+      "enum": [
+        "commercial",
+        "financial",
+        "administrative",
+        "labor"
+      ]
+    },
+    "nameAr": {
+      "type": "string"
+    },
+    "nameEn": {
+      "type": "string"
+    },
+    "decree": {
+      "type": "string",
+      "description": "رقم المرسوم الملكي، مثل م/126"
+    },
+    "hijriDate": {
+      "type": "string"
+    },
+    "gregorianYear": {
+      "type": "integer"
+    },
     "status": {
-      "enum": ["in_force", "repealed", "draft", "unverified"],
+      "enum": [
+        "in_force",
+        "repealed",
+        "draft",
+        "unverified"
+      ],
       "description": "in_force = ساري. repealed = ملغى (ولا يجوز الاحتجاج به). draft = مشروع لم يصدر."
     },
-    "supersedes": { "type": "array", "items": { "type": "string" }, "description": "ما ألغاه هذا النظام" },
-    "supersededBy": { "type": "string" },
-    "amendments": { "type": "array", "items": { "type": "string" } },
-    "totalArticles": { "type": "integer" },
-    "appliesTo": { "type": "array", "items": { "type": "string" }, "description": "قرائن تدل على أن المسألة تقع تحت هذا النظام" },
-    "penaltyAmounts": { "type": "array", "items": { "type": "number" }, "description": "مبالغ الغرامات المتحقَّقة فقط" },
+    "supersedes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "ما ألغاه هذا النظام"
+    },
+    "supersededBy": {
+      "type": "string"
+    },
+    "amendments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "totalArticles": {
+      "type": "integer"
+    },
+    "appliesTo": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "قرائن تدل على أن المسألة تقع تحت هذا النظام"
+    },
+    "penaltyAmounts": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "مبالغ الغرامات المتحقَّقة فقط"
+    },
     "articles": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["no", "titleAr", "text", "verbatim"],
+        "required": [
+          "no",
+          "titleAr",
+          "text",
+          "verbatim"
+        ],
         "properties": {
-          "no": { "type": "integer" },
-          "titleAr": { "type": "string" },
-          "text": { "type": "string" },
-          "verbatim": { "type": "boolean", "description": "true = نص حرفي من المتن · false = صياغة موثّقة (الأرقام حرفية في الحالتين)" },
-          "tags": { "type": "array", "items": { "type": "string" } }
+          "no": {
+            "type": "integer"
+          },
+          "titleAr": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "verbatim": {
+            "type": "boolean",
+            "description": "true = نص حرفي من المتن · false = صياغة موثّقة (الأرقام حرفية في الحالتين)"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
         }
       }
     },
     "verification": {
       "type": "object",
-      "required": ["metadata", "articles", "checkedAt"],
+      "required": [
+        "metadata",
+        "articles",
+        "checkedAt"
+      ],
       "properties": {
-        "metadata": { "enum": ["primary_source", "secondary_source", "unverified"] },
-        "articles": { "enum": ["primary_source", "two_secondary_sources", "none"] },
-        "checkedAt": { "type": "string" },
-        "sources": { "type": "array", "items": { "type": "string" } },
-        "notes": { "type": "string" }
+        "metadata": {
+          "enum": [
+            "primary_source",
+            "secondary_source",
+            "unverified"
+          ]
+        },
+        "articles": {
+          "enum": [
+            "primary_source",
+            "two_secondary_sources",
+            "none"
+          ]
+        },
+        "checkedAt": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
       }
+    },
+    "penaltyRanges": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "description": "مديات العقوبة المتحقَّقة [الحد الأدنى، الحد الأعلى] — أي مبلغ داخلها مشروع نظاماً"
+    },
+    "ratioPenalties": {
+      "type": "boolean",
+      "description": "عقوبات نسبية من قيمة البضاعة أو المبيعات لا مبالغ ثابتة"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "أسماء مختصرة يستعملها العقل"
     }
   }
 }
