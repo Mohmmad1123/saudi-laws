@@ -1,0 +1,26 @@
+{
+ "id": "enforcement-1433",
+ "family": "administrative",
+ "nameAr": "نظام التنفيذ (1433هـ)",
+ "decree": "م/53",
+ "hijriDate": "13/8/1433",
+ "gregorianYear": 2012,
+ "status": "repealed",
+ "supersededBy": "نظام التنفيذ (م/237 — 1447هـ)",
+ "appliesTo": [],
+ "aliases": [
+  "نظام التنفيذ القديم",
+  "نظام التنفيذ 1433"
+ ],
+ "articles": [],
+ "verification": {
+  "metadata": "primary_source",
+  "articles": "none",
+  "checkedAt": "2026-11-25",
+  "sources": [
+   "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/c81ba2f1-1bf1-443b-9b1c-a9a700f27110/1",
+   "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/67dd54bc-c33a-48c8-8356-b44700a9ab55/1"
+  ],
+  "notes": "🔴 حلّ محلّه نظام التنفيذ الصادر بالمرسوم الملكي م/237 وتاريخ 3/11/1447هـ (م/65 منه)، النافذ بعد 180 يوماً من نشره (نحو 28 أكتوبر 2026). لا يُستشهد بمواد نظام 1433."
+ }
+}

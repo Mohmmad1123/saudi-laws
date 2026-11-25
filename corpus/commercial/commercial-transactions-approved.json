@@ -1,0 +1,26 @@
+{
+  "id": "commercial-transactions-approved",
+  "family": "commercial",
+  "nameAr": "نظام المعاملات التجارية",
+  "status": "draft",
+  "approval": {
+    "by": "مجلس الوزراء",
+    "date": "2026-10-27",
+    "source": "https://www.uqn.gov.sa/news/council-of-ministers/4002224"
+  },
+  "articles": [],
+  "appliesTo": [
+    "عقد توريد",
+    "عقد تجاري",
+    "الالتزامات التجارية"
+  ],
+  "verification": {
+    "metadata": "primary_source",
+    "articles": "none",
+    "checkedAt": "2026-11-24",
+    "sources": [
+      "https://www.uqn.gov.sa/news/council-of-ministers/4002224"
+    ],
+    "notes": "🟠 **وافق عليه مجلس الوزراء في جلسة 27 أكتوبر 2026 (16 جمادى الأولى 1448هـ)** — أم القرى. لم يُنشر نصّه ولا تاريخ نفاذه بعد، فلا يُحتجّ بمواده حتى يُنشر ويُحقن.\n\n🔴 قاعدة الأنظمة القديمة (`saudiLawDatabase`) كانت تنسبه إلى «وزارة التجارة 2021» بأحكامٍ عامّة — ذلك غير صحيح. وحتى نفاذه تُحكم العقود التجارية بنظام المعاملات المدنية والأنظمة الخاصة."
+  }
+}
